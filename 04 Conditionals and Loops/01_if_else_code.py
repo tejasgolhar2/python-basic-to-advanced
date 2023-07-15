@@ -6,10 +6,13 @@ if salary>=2000:
 
 else:
     print("OOps! You are not eligible for mortgage")
+    
 # the else statement is not mandatory can we can specify if condition only in the cases where else condition is not mandatory
 
+'''In if-else condition, if the first 'if' condition evaluates true, its code is executed; otherwise
+(in case the 'if' condition evaluates false ) the else block will be executed surely'''
 
-''' 
+'''
 
      INDENTATION
   Python relies on indentation (whitespace at the beginning of a line) 
