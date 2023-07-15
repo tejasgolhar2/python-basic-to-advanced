@@ -1,4 +1,4 @@
-'''
+"""
 PASS Keyword
     In Python, the pass keyword is a placeholder statement that does nothing. 
 
@@ -17,11 +17,10 @@ Common use cases of Pass keyword
     1.Empty Function or Class Definition  
     2. Placeholder in a Conditional Statement
     3. Placeholder in a Loop
-'''
+"""
 age = int(input("Enter your age:\n"))
-if age>18:
+if age > 18:
     pass
 
 else:
     print("Sorry ! You are not eligible for voting!")
-    

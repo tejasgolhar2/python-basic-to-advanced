@@ -15,7 +15,7 @@ if salary >= 2000:
             print(f"Interest Rate on mortgage {rate}%")
         else:
             print(f"Interest Rate on mortgage {rate}%")
-    elif (score >= 650) and (score <= 799):
+    elif (score >= 650) and (score <= 799):  #  <<<<<<--------   USE OF LOGICAL AND
         rate = 6
         if pwd == "Y":
             rate -= 2
