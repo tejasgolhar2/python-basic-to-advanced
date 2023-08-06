@@ -32,10 +32,10 @@ print(des2.split("_", maxsplit = 2))
 
 # TO JOIN THE ELEMENTS OF THE LIST
 
-result1 = " ".join(value1)
+result1 = " ".join(value1)  #  --- >>> Join list elements with space as a separator between them
 result2 = "_".join(value1)
 result3 = " ".join(value2)
-result4 = "_".join(value2)
+result4 = "_".join(value2)  #  --- >>> Join list elements with underscore as a separator between them
 
 print(result1)
 print(result2)
