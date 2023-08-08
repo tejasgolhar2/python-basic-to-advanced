@@ -16,6 +16,6 @@ print(val1[-5])
 print(val1[-3])
 print(val1[-1])
 
-#accessing value more than the index values present
-#the error shows that an Exception has occurred
+# Accessing value more than the index values present
 print(val1[5])
+# results "Index out of range error"
