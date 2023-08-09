@@ -1,3 +1,5 @@
+# 2. Write a program to find a number. The given number is > 0, =0, < 0 (using if-elif-else)
+
 try:
     num = int(input("Enter the number value to be checked: "))
 except ValueError:
