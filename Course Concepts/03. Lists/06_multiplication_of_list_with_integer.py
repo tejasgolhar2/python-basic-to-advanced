@@ -13,8 +13,8 @@ print(list2)
 
 # multiplication with float
 
-list3 = mixed_list * 3.7
+# list3 = mixed_list * 3.7
 
-print(list3)
+# print(list3)
 
 # gives TypeError as -->> can't multiply sequence by non-int of type 'float'
