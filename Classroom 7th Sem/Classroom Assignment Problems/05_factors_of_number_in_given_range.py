@@ -7,7 +7,6 @@ for i in range(lower,upper+1):
     count = 0
     print("Factors of",i,"are: ")
     for val in range(1,i+1):
-        if (i%val==0):
-            count+=1
+        if(i%val==0):
             print(val,end=" ")
-    print()
+    print("\n")
