@@ -10,15 +10,13 @@
 
 # ['Hello Dear', 'Hello Sir', 'take Dear', 'take Sir']
 
-def concatenate(lista,listb):
-    ans = []
-    m = 0
-    for item in range(len(lista)):
-        for val in range(len(listb)):
-            ans.append(lista[item]+listb[val])
-            m+=1
-    print(ans)
+def concatenate(list1, list2):
+    result = []
+    for i in list1:
+        for j in list2:
+            result.append(i+j)
+    print(result)
 
 list1 = ["Hello ", "take "]
 list2 = ["Dear", "Sir"]
-concatenate(list1,list2)
+concatenate(list1, list2)
