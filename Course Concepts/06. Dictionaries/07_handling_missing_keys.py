@@ -18,7 +18,7 @@ equipments = {
     'keyboards':21,
 }
 value = equipments.get("extensions",0)
-print(f"The number of extensions in the dictionary : {value}")
+print(f"The number of extensions in the equipments : {value}")
 print(equipments)
 
 
@@ -36,5 +36,5 @@ equipments1 = {
     'keyboards':15,
 }
 quantity = equipments1.setdefault("microphone",0)
-print(f"The number of mouse in the second list : {quantity}")
+print(f"The number of microphone in the second equipments list : {quantity}")
 print(equipments1)
