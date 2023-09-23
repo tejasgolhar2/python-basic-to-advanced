@@ -1,5 +1,6 @@
 # Length of Dictionary Values
-# Implement a function which takes a dictionary as a parameter and returns new dictionary.  In new dictionary the keys remain same but values will be another nested dictionary. Nested dictionary's keys will be values from original dictionary and values will be length of values from original dictionary. (I know it is confusing, see example below you will understand it :) )
+# Implement a function which takes a dictionary as a parameter and returns new dictionary.  
+# In new dictionary the keys remain same but values will be another nested dictionary. Nested dictionary's keys will be values from original dictionary and values will be length of values from original dictionary. (I know it is confusing, see example below you will understand it :) )
 
 # Example
 

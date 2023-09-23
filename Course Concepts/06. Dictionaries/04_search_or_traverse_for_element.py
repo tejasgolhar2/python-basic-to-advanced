@@ -4,9 +4,9 @@
 # we have already done this for lists
 
 dictionary1 = {
-    "Tejas":"He is a very good boy that lives in Wardha",
-    "Neha" : "A beautiful girl sings like a Koyal",
-    "Ravi" : "He is calm minded clever boy",
+    "Tejas":"A very good boy",
+    "Neha" : "A beautiful girl",
+    "Ravi" : "Calm minded clever boy",
 } 
 
 for item in dictionary1:
@@ -19,4 +19,16 @@ for item in dictionary1:
 for key in dictionary1:
     print(key,"=",dictionary1[key])
 
-# Searching for an element in dictinary
+
+#Use of IN and NOT IN operator
+
+# Searching for an element in dictinary 
+# The IN and NOT IN Operators search for the intended key whether to be present in the dictionary or not
+my_dict = {
+    1 : 'one',
+    2 : 'two',
+    3 : 'three'
+}
+
+print(1 in my_dict) # search for whether 1 is present as one of the keys in the dictionary or not.
+print('one' in my_dict)  # the seaching scope is of the keys only and the values in the dictionary
