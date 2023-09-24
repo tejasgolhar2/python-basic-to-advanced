@@ -4,11 +4,15 @@
 
 
 animals = {1:'dog',2:'cat',3:'man'}
-new_dictionary = animals.keys()
-print(new_dictionary)
+view_keys = animals.keys()
+print(view_keys)
+
+# Converting the Key view object into list
+list_keys = list(animals.keys())
+print(list_keys)
+
 
 # Use case
- 
 for item in animals.keys():
     # the above line contains .keys() which directly tells that 'animals' is a dictionary iterable
     print(item)
