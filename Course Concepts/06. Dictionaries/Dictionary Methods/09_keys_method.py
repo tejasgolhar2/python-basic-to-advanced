@@ -12,7 +12,7 @@ list_keys = list(animals.keys())
 print(list_keys)
 
 
-# Use case
+# Use case - Detect that the iterable is of dictionary datatype
 for item in animals.keys():
-    # the above line contains .keys() which directly tells that 'animals' is a dictionary iterable
+    # the above line contains .keys() which directly tells that 'animals' is a dictionary iterable and not a list
     print(item)

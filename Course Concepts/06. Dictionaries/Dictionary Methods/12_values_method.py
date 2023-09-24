@@ -19,7 +19,7 @@ print(values,'\n')
 
 
 # if the dictionary is updated with changes, 
-#   those are dynamically reflected in the values output even without specifying the values method again
+#   those are dynamically reflected in the values output 
 # The values are in the form of view object which cannot be accessed using indexing
 # The values are in the form of sets in Python
 custom_dict[0]='Zero'

@@ -1,8 +1,8 @@
 # USE OF UPDATE METHOD IN PYTHON
 
-#  The new list as a parameter is taken 
+#  The new list is taken as a parameter 
 #  The keys present in original dictionary common to new dictionary 
-#      are updated with the corresponding key-values of the new dictionary
+#      are updated with the corresponding values of the new dictionary
 
 # Updating the values in key doesn't change the order in the dictionary
 
