@@ -31,4 +31,8 @@ my_dict = {
 }
 
 print(1 in my_dict) # search for whether 1 is present as one of the keys in the dictionary or not.
-print('one' in my_dict)  # the seaching scope is of the keys only and the values in the dictionary
+print('one' in my_dict)  # the seaching scope is of the keys only and not the values in the dictionary
+
+# values() method in python
+# Search for a value to be present in dictionary or not
+print("one" in my_dict.values())
