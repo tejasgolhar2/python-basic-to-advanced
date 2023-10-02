@@ -2,7 +2,7 @@
 #   strings can be done using comparison operators likewise used in arithmetic operations
 
 
-# USE OF EQUAL TO OPERATOR IN PYTHON STRINGS
+# USE OF EQUAL_TO OPERATOR IN PYTHON STRINGS
 
 def checkPassword():
     password = "strong"
