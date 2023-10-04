@@ -13,7 +13,7 @@ print(numbers[:2])
 # prints elements till index < 2
 
 print(numbers[1:3])
-# prints elements from element of index = 0 to index < 3
+# prints elements from element of index = 1 to index < 3
 
 print(numbers[2:3])
 # prints the element with index 2 only
