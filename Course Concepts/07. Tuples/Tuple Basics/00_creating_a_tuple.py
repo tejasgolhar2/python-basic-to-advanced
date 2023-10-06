@@ -1,5 +1,5 @@
 # Tuples
-#     It is a datatype in Python. It is represented just as in lists.
+#     It is a datatype in Python. It is represented just as like lists.
 # Tuples are represented by round brackets.
 # The individual items in the tuples can be accessed by indexing.
 # The only difference is that tuples are immutable.
@@ -42,7 +42,7 @@ print((1,2,3,4))
 tuple5 = ()
 print(tuple5)
 
-# Approach 2 : Using Builtin function
+# Approach 2 : Using Built-in function
 tuple6 = tuple()
 print(tuple6)
 
