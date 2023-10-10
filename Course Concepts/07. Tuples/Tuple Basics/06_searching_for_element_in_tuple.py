@@ -11,6 +11,7 @@ print(88 in tuple1)
 
 # Approach 2 : Using Linear Search Algorithm
 
+# use of enumerate fuction in Python that works similar to that of items method in dictionaries
 # can return the presence of value and its index too
 # alorithm to search an element in tuple
 
