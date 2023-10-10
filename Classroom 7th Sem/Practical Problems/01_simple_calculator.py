@@ -3,7 +3,7 @@ def add(a,b):
     return sum
 
 def sub(a,b):
-    sum = a - b
+    sub = a - b
     return sub
 
 def mult(a,b):
