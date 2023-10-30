@@ -14,7 +14,7 @@ print(fruits1)
 
 # Method 2 : Remove Method
 # If element to be removed not present in the set, it throws KeyError
-# We should be prepared for exception handling
+# We should be prepared for exception handling while using the remove method
 
 fruits2 = {"apple","orange","grape","lemon"}
 print(fruits2)

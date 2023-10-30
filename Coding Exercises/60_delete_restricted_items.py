@@ -26,33 +26,40 @@ restricted_items = {
     "Amplified Audio",
     "Drugs"
     }
+
+
 choice = int(input("Select Beach Type (1 - Family beach, 2 - Normal Beach):"))
 
 print("See below the list of items that you can take.")
 
+
+# Approach 1 : Using discard method
+
+# if choice==1:
+#     for element in restricted_items:
+#         general_items.discard(element)
+# elif choice==2:
+#     general_items.discard("Drugs")
+    
+# for item in general_items:
+#     print(f"\t{item}")
+
+
+# Approach 2 : Using remove method
+
 if choice==1:
     for element in restricted_items:
-        general_items.discard(element)
+        try:
+            general_items.remove(element)
+        except KeyError:
+            print(f"Skipping {element} ...")
+
 elif choice==2:
-    general_items.discard("Drugs")
-    
+    try:
+        general_items.remove("Drugs")
+    except:
+        print("Skipping Drugs ...")
+
 for item in general_items:
     print(f"\t{item}")
 
-
-# Example Input
-
-# Select Beach Type (1 - Family beach, 2 - Normal Beach): 1
-
-# Example Output
-
-# See below the list of items that you can take.
-#     Alcholic Drinks
-#     Sand toys
-#     Snacks
-#     Sunglasses
-#     Hats
-#     Beach umbrella
-#     Beach towels
-#     Camp chair
-#     Camera
