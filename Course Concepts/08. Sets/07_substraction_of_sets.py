@@ -1,0 +1,24 @@
+
+fruits = {"apple", "pear", "limon", "grape", "cucumber", "orange"}
+vegetables = {"cucumber", "garlic", "onion", "broccoli", "pepper"}
+
+# Subtracting - The result is the set containing those elements only which are not present in the second set
+# The order of specification matters
+
+
+# Method 1
+
+sub1 = fruits.difference(vegetables)  # Subtract 2nd Set from 1st
+print(sub1)
+
+sub2 = vegetables.difference(fruits)  # Subtract 1st Set from 2nd
+print(sub2)
+
+
+# Method 2
+
+sub3 = fruits - vegetables
+print(sub3)
+
+sub4 = vegetables - fruits
+print(sub4)

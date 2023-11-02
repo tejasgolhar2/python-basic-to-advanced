@@ -33,4 +33,4 @@ list_of_sets = [
     {10, "ten", "20", 20}
 ]
 
-convert_ls(list_of_sets)
+print(convert_ls(list_of_sets))

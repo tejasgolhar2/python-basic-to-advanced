@@ -11,17 +11,18 @@ vegetables = {"cucumber", "garlic", "onion", "broccoli", "pepper"}
 # Approach 1: Using intersection method
 
 set1 = fruits.intersection(vegetables)
+#or
 set2 = vegetables.intersection(fruits)
 
 print("Set 1:",set1)
-print("Set 2:",set2)
+print("and/or Set 2:",set2)
 
 
 
 # Approach 2 : Using Ampersand Operator
 
 set3 = fruits & vegetables
-print("Set 3:",set3)
+print("Using & --> Set 3:",set3)
 
 
 
