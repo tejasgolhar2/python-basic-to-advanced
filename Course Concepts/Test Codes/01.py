@@ -1,2 +1,7 @@
-import math
-print(abs(math.sqrt(25)))
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
