@@ -1,3 +1,5 @@
+# 2. Write a program to compute factorial of a given number using recursion.
+
 def factorial(v_num):
     if v_num == 1:
         return 1

@@ -1,3 +1,5 @@
+# 1. Write a program to design a simple calculator.
+
 def add(a,b):
     sum = a + b
     return sum
