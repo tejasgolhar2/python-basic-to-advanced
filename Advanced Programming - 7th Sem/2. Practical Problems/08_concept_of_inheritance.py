@@ -1,28 +1,30 @@
-# 8. Write a program to demonstrate the concept of inheritance
+class Bird:
 
+	def intro(self):
+		print("There are many types of birds.")
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
+	def flight(self):
+		print("Most of the birds can fly but some cannot.")
 
-    def speak(self):
-        pass  # Abstract method, to be overridden by subclasses
+class sparrow(Bird):
 
+	def flight(self):
+		print("Sparrows can fly.")
 
-class Dog(Animal):
-    def speak(self):
-        return f"{self.name} says Woof!"
+class ostrich(Bird):
 
+	def flight(self):
+		print("Ostriches cannot fly.")
 
-class Cat(Animal):
-    def speak(self):
-        return f"{self.name} says Meow!"
+obj_bird = Bird()
+obj_spr = sparrow()
+obj_ost = ostrich()
 
+obj_bird.intro()
+obj_bird.flight()
 
-# Creating instances of the derived classes
-dog_instance = Dog("Buddy")
-cat_instance = Cat("Whiskers")
+obj_spr.intro()
+obj_spr.flight()
 
-# Calling the speak method on the instances
-print(dog_instance.speak())  # Output: Buddy says Woof!
-print(cat_instance.speak())  # Output: Whiskers says Meow!
+obj_ost.intro()
+obj_ost.flight()
