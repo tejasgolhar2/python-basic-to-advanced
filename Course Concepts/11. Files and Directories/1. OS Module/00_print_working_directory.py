@@ -1,10 +1,10 @@
 import os
 
 def printWorkingDirectory():
-    path = os.getcwd()
+    path = os.getcwd()                          # returns --> String
     print("Current Working Directory: ",path)
 
 
-# The above function returns the path of currently working directory
+# Function returns the path of currently working directory
 
 printWorkingDirectory()

@@ -22,11 +22,11 @@ printWorkingDirectory()
 up_one_directory_level()        # changes cwd to folder parent to the present
 printWorkingDirectory()
 
-
+print("")
 elements_in_directory()
 
+
 '''
-NOTE:
-1. Likewise, we can use os.list() method 
+NOTE:   1. Likewise, we can use os.list() method which is a more reliable method for listing the entities in a directory
 
 '''
